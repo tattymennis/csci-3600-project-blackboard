@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "What is Blackboard?";
+}
+<h2>@ViewBag.Title</h2>
+
+<div class="row">
+    <div class="col-md-6">      
+        <p>Blackboard enables you to write a private message that can only be read by someone who knows the key. Select an encryption
+           algorithm (AES, Blowfish, Twofish) and your message will appear on the Blackboard, unreadable unless decrypted with the key.</p>
+    </div>
+    <div class="col-md-6">
+        <p>Engage self-destruct sequence! Blackboard will erase your message after a duration of time, leaving nothing behind. </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <p>The first implementation will focus on a user selecting a message off the Blackboard and manually entering the key.
+           This is asynchronous message passing, but with a symmetrical (one-key) algorithm.</p>
+    </div>
+    <div class="col-md-6">
+        <p>The second implementation will allow registered users (both normal and Pro customers) to interact asynchronously but
+           using a primitive (and non-real-world) public/private key system.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <p>
+            Blackboard Pro will enable clients to send timed messages, and potentially add trusted associates' public keys to a keyring.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <p>
+            *Note: The site in development is not intended to be production-worthy. Many of the methodologies I will use will likely be a far cry
+            from best practices regarding real information security. Furthermore, if I manage to roll a public/private key encryption scheme, I 
+            do not attest in any way to its actual efficacy and should not be used for real-world security. 
+        </p>
+    </div>
+</div>

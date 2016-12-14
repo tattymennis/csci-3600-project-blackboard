@@ -1,0 +1,296 @@
+﻿/* COLOR SCHEME: Neutral Blue*/
+
+/* Secondary */
+header{
+    color:#193441;
+    background-color:#91AA9D;
+    background-image: url("assets/header.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+}
+
+body {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    background-color:#FCFFF5;
+    padding-top:50px
+}
+
+/* Tertiary */
+nav{
+    color:#193441;
+    padding: 5px 10px;
+    font-size: 14pt;
+    font-weight: bold;
+    position: relative;
+    box-shadow: 0 10px 5px -5px #3E606F;
+    background-color: #D1DBBD; 
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display:inline;
+    margin-right:10px;
+}
+
+nav a:hover {
+    color:#193441;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+/* Primary */
+main{
+    color:#193441;
+    background-color:#FCFFF5;
+    padding: 10px;
+    z-index: 0;
+}
+
+main a {
+    color:#193441;
+}
+
+/* Secondary */
+footer{
+    color:#193441;
+    background-color:#778899;
+    /* background-color:#91AA9D; */
+    padding: 5px 10px;
+    font-size: 10pt;
+    font-style: italic;
+    border-radius: 0 0 10px 10px;
+}
+
+footer a {
+    color:#193441;
+}
+
+#wrapper {
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+header, section, footer, aside, nav, main, article, figure 
+ { display: block; } 
+
+h1 {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 42pt;
+    line-height: 36pt;
+    font-weight: lighter;
+    font-family: crimson-text;
+}
+
+h2 {
+    margin: 0;
+    padding: 0 5px 10px;
+    font-size: 24pt;
+    line-height: 22pt;
+}
+ 
+h3 {
+    font-size: 18pt;
+    margin: 0;
+}
+
+@font-face {
+    font-family: crimson-text;
+    src: url(../fonts/crimson-text-roman.ttf);
+}
+
+.experience, .school {
+    color: #193441;
+    border-left: 10px solid;
+    border-bottom: 1px dashed;
+    border-top: 1px dashed;
+    border-right: 1px dashed;
+    margin: 20px;
+    padding: 5px 5px 10px 10px;
+    overflow: auto;
+}
+
+.experience h4 {
+    font-size: 18pt;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.experience .title{
+    font-size: 12pt;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.experience .dates {
+    font-size: 12pt;
+    font-style: italic;
+    font-weight: bold;
+    float: right;
+}
+
+.experience .description {
+    font-size: 11pt;
+    margin: 0;
+}
+
+.experience ul {
+    margin: 0;
+}
+
+.experience .responsibilities {
+    font-size: 10pt;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.school img {
+    float: left;
+}
+
+.school h3 {
+    margin : 0 0 0 120px;
+}
+
+.school h4 {
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0 0 0 120px;
+}
+
+.school ul {
+    margin: 0 0 0 120px;
+}
+
+.self img {
+    float: right;
+}
+
+.details{
+    color:#FCFFF5;
+    background-color:#3E606F;
+    float: right;
+    padding: 5px 10px;
+}
+
+#foot-table{
+    font-size: 7pt;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 200px;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+label{
+    display: block;
+    float: left;
+}
+
+label text{
+    display: block;
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 5px;
+}
+
+label textarea{
+    display: block;
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 5px;
+    height: 75px;
+}
+
+label select {
+    display: block;
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 5px;
+}
+
+#form-group {
+    display: block;
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 5px;
+}
+
+/* BlackboardView div container for centering jumbo + form */
+.board-center-div {
+    margin: 0 auto;
+    align-self: center;
+    align-content:center;
+}
+
+.navbar-default {
+    background-color:transparent;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.jumbotron-custom {
+    background: #000 url('../Content/img/blackboard.jpg') center center;
+    width:100%;
+    height:100%;
+    position:relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotron-custom h1 {
+    margin:auto;
+    color:whitesmoke;
+}
+
+.jumbotron-custom h2 {
+    margin:auto;
+    color:whitesmoke;
+}
+
+.jumbotron-custom h3 {
+    margin:auto;
+    color:whitesmoke;
+}
+
+.jumbotron-custom p {
+    color:whitesmoke;
+}
+
+.board-post-table {
+    border:thick;
+    color:whitesmoke;
+    font-size:10px;
+    text-wrap:normal;
+}
+
+.article {
+    width:300px;
+    height:100px;
+    display: block;
+}
+
+#blackboard.container {
+    background-image: url('../Content/img/blackboard.jpg');
+}
+
+.panel-transparent {
+    background:none;
+    color:whitesmoke;
+}
